@@ -1,0 +1,21 @@
+import React from "react";
+import {
+    BrowserRouter,
+    BrowserRouter as Router,
+    Route,
+    Switch
+} from "react-router-dom";
+
+import Home from "./components/pages/Home/home";
+
+const Rounting = () => {
+    return (
+        <Router>
+            <Switch>
+                <Route exact path="/" component={Home}/>
+            </Switch>
+        </Router>
+    )
+}
+
+export default Rounting;
