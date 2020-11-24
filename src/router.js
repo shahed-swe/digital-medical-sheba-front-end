@@ -1,6 +1,5 @@
 import React from "react";
 import {
-    BrowserRouter,
     BrowserRouter as Router,
     Route,
     Switch
