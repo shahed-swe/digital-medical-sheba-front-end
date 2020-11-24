@@ -5,12 +5,14 @@ import {NavDropdown} from 'react-bootstrap';
 import {FormControl} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
 import {Nav} from 'react-bootstrap';
+import {Container} from 'react-bootstrap'
 
 class NavigationBar extends Component{
     render(){
         return(
             <Navbar bg="light" expand="lg">
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                <Container>
+                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
@@ -29,6 +31,7 @@ class NavigationBar extends Component{
                         <Button variant="outline-success">Search</Button>
                     </Form>
                 </Navbar.Collapse>
+                </Container>
             </Navbar>
         )
     }
