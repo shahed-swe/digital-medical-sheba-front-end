@@ -17,7 +17,7 @@ class NavigationBar extends Component{
 
                         <nav className="site-navigation d-flex justify-content-end align-items-center">
                                     <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                                        <li className="current-menu-item"><a href="index.html">Home</a></li>
+                                        <li className="current-menu-item"><a href="/">Home</a></li>
                                         <li><a href="#about">About us</a></li>
                                         <li><a href="#service">Services</a></li>
                                         <li><a href="#news">News</a></li>
