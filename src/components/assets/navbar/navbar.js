@@ -1,38 +1,44 @@
 import React, {Component} from 'react';
-import {Navbar} from 'react-bootstrap';
-import {Form} from 'react-bootstrap';
-import {NavDropdown} from 'react-bootstrap';
-import {FormControl} from 'react-bootstrap';
-import {Button} from 'react-bootstrap';
-import {Nav} from 'react-bootstrap';
-import {Container} from 'react-bootstrap'
+import '../../utils/style.css';
+import Logo from "../../utils/images/logo.png";
+import Emergency from "../../utils/images/emergency-call.png";
+
 
 class NavigationBar extends Component{
     render(){
         return(
-            <Navbar bg="light" expand="lg">
-                <Container>
-                <Navbar.Brand href="/">React-Bootstrap</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#link">Link</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
-                    </Nav>
-                    <Form inline>
-                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                        <Button variant="outline-success">Search</Button>
-                    </Form>
-                </Navbar.Collapse>
-                </Container>
-            </Navbar>
+            <div className="nav-bar">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                            <div className="site-branding d-flex align-items-center">
+                                <a className="d-block" href="/" rel="home"><img className="d-block" src={Logo} alt="logo"/></a>
+                        </div>
+
+                        <nav className="site-navigation d-flex justify-content-end align-items-center">
+                                    <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
+                                        <li className="current-menu-item"><a href="index.html">Home</a></li>
+                                        <li><a href="#about">About us</a></li>
+                                        <li><a href="#service">Services</a></li>
+                                        <li><a href="#news">News</a></li>
+                                        <li><a href="#contact">Contact</a></li>
+
+                                        <li className="call-btn button gradient-bg mt-3 mt-md-0">
+                                            <a className="d-flex justify-content-center align-items-center" href="#"><img src={Emergency}/> +34 586 778 8892</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div className="hamburger-menu d-lg-none">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         )
     }
 }

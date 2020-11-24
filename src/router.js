@@ -6,7 +6,6 @@ import {
 } from "react-router-dom";
 
 import Home from "./components/pages/Home/home";
-
 const Rounting = () => {
     return (
         <Router>
