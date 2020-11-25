@@ -6,7 +6,7 @@ import '../../utils/style.css';
 import '../../utils/swiper.min.css';
 import Logo from '../../utils/images/emergency-call.png';
 import Department from './departments'
-
+import "./home.css"
 
 const Home = (props) => {
 

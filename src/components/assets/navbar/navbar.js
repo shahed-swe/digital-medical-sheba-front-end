@@ -19,12 +19,14 @@ class NavigationBar extends Component{
         this.leftSidebarObj.classList.toggle('show');
     }
 
+
     render(){
+
         return(
             <div className="nav-bar">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 d-flex flex-wrap justify-content-between align-items-center">
+                        <div className="col-12 d-flex flex-wrap justify-content-between align-items-center fixed-top newnav">
                             <div className="site-branding d-flex align-items-center">
                                 <a className="d-block" href="/" rel="home"><img className="d-block" src={Logo} alt="logo"/></a>
                         </div>
