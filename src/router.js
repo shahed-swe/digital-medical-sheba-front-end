@@ -7,8 +7,12 @@ import {
 
 import Home from "./components/pages/Home/home";
 import About from './components/pages/About/about';
+
+
+
 const Rounting = () => {
     return (
+        
         <Router>
             <Switch>
                 <Route exact path="/" component={Home}/>

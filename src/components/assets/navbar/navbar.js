@@ -19,7 +19,6 @@ class NavigationBar extends Component{
         this.leftSidebarObj.classList.toggle('show');
     }
 
-
     render(){
 
         return(
