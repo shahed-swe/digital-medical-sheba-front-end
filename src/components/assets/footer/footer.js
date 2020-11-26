@@ -12,7 +12,7 @@ const FooterBar = () => {
                             <div className="foot-about">
                                 <h2><a href="/"><img src={Logo} alt="" /></a></h2>
 
-                                <p>A is a web-based & Mobile Based app that is focused on
+                                <p>A web-based & Mobile Based app that is focused on
                                     the patient who Admitted to the hospital. It will be able to schedule
                                     the time of taking medicine and getting those equipment according to
                                     the patients need.</p>
