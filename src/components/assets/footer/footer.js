@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from "../../utils/images/logo.png";
+import Logo from "../../utils/images/footer.png";
 
 const FooterBar = () => {
     return (
