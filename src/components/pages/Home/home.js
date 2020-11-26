@@ -28,7 +28,10 @@ const Home = (props) => {
 const Header = () => {
     return (
         <div>
-            <NavigationBar />
+            <div className="site-header">
+                <NavigationBar />
+            </div>
+            
             <Carrosel/>
         </div>
     )
