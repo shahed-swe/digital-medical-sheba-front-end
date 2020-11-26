@@ -7,6 +7,8 @@ import '../../utils/swiper.min.css';
 import Logo from '../../utils/images/emergency-call.png';
 import Department from './departments'
 import "./home.css"
+import {Talk, Subscribe} from './talk';
+
 
 const Home = (props) => {
 
@@ -15,6 +17,8 @@ const Home = (props) => {
             <Header/>
             <Appointment/>
             <Department/>
+            <Talk/>
+            <Subscribe/>
             <FooterBar/>
         </div>
     )

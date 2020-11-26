@@ -35,8 +35,8 @@ class NavigationBar extends Component{
                                         <li className="current-menu-item"><a href="/">Home</a></li>
                                         <li><a href="/about">About us</a></li>
                                         <li><a href="#service">Services</a></li>
-                                        <li><a href="#news">News</a></li>
-                                        <li><a href="#contact">Contact</a></li>
+                                        <li><a href="#news">Tips</a></li>
+                                        <li><a href="/contact">Contact</a></li>
 
                                         <li className="call-btn button gradient-bg mt-3 mt-md-0">
                                             <a className="d-flex justify-content-center align-items-center" href="#call"><img src={Emergency} alt="_"/> +34 586 778 8892</a>

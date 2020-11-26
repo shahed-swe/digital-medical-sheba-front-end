@@ -928,7 +928,7 @@ ul.tabs-nav .tab-nav.active {
     z-index: -1;
     width: 50%;
     height: 100%;
-    background: url("images/testimonial-bg.jpg") no-repeat right center;
+    background: url("./images/testimonial-bg.jpg") no-repeat right center;
     background-size: cover;
 }
 
@@ -956,7 +956,7 @@ ul.tabs-nav .tab-nav.active {
     z-index: -1;
     width: 499px;
     height: 492px;
-    background: url("images/testimonial-content-bg.png") no-repeat;
+    background: url("./images/testimonial-content-bg.png") no-repeat;
 }
 
 .testimonial-slider .content-wrap {
@@ -979,7 +979,8 @@ ul.tabs-nav .tab-nav.active {
     left: 0;
     width: 46px;
     height: 46px;
-    background: url("images/testimonial-p-bg.png") no-repeat;
+    /* background: url("images/testimonial-p-bg.png") no-repeat; */
+    background: url("./images/testimonial-p-bg.png") no-repeat;
 }
 
 .testimonial-slider .testimonial-user {

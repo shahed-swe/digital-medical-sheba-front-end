@@ -1,3 +1,7 @@
 .newnav {
     background-color: white;
 }
+
+.swiper-slide {
+    padding: 20px 60px 20px 60px;
+}

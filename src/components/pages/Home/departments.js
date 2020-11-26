@@ -14,171 +14,171 @@ import Glass from '../../utils/images/glasses.png';
 class Department extends Component{
     render(){
         return(
-                <div class="our-departments">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="our-departments-wrap">
+                <div className="our-departments">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
+                                <div className="our-departments-wrap">
                                     <h2>Our Departments</h2>
 
-                                    <div class="row">
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                    <div className="row">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Cardiogram} alt=""/>
 
                                                     <h3>Cardioology</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Stomac} alt=""/>
 
                                                     <h3>Gastroenterology</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={BloodSample} alt=""/>
 
                                                     <h3>Medical Lab</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Teeth} alt=""/>
 
                                                     <h3>Dental Care</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Stretcher} alt=""/>
 
                                                     <h3>Surgery</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Scanner} alt=""/>
 
                                                     <h3>Neurology</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4 mb-md-0">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4 mb-md-0">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Bone} alt=""/>
 
                                                     <h3>Orthopaedy</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4 mb-lg-0">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4 mb-lg-0">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={BloodDonate} alt=""/>
 
                                                     <h3>Pediatry</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
                                         </div>
 
-                                        <div class="col-12 col-md-6 col-lg-4 mb-0">
-                                            <div class="our-departments-cont">
-                                                <header class="entry-header d-flex flex-wrap align-items-center">
+                                        <div className="col-12 col-md-6 col-lg-4 mb-0">
+                                            <div className="our-departments-cont">
+                                                <header className="entry-header d-flex flex-wrap align-items-center">
                                                     <img src={Glass} alt=""/>
 
                                                     <h3>Ophthalmology</h3>
                                                 </header>
 
-                                                <div class="entry-content">
+                                                <div className="entry-content">
                                                     <p>Lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus.</p>
                                                 </div>
 
-                                                <footer class="entry-footer">
+                                                <footer className="entry-footer">
                                                     <a href="#read">read more</a>
                                                 </footer>
                                             </div>
