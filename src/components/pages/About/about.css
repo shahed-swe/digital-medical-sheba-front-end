@@ -1,3 +1,17 @@
 h1 {
     padding-top: 100px;
 }
+
+.btn-primary {
+    background-color: #00000000 !important;
+    border-color: #00000000 !important;
+}
+
+.btn-primary:future {
+    background-color: #00000000 !important;
+    border-color: #00000000 !important;
+}
+
+.collapse p {
+    color: white;
+}
