@@ -12,7 +12,10 @@ const FooterBar = () => {
                             <div className="foot-about">
                                 <h2><a href="/"><img src={Logo} alt="" /></a></h2>
 
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</p>
+                                <p>A is a web-based & Mobile Based app that is focused on
+                                    the patient who Admitted to the hospital. It will be able to schedule
+                                    the time of taking medicine and getting those equipment according to
+                                    the patients need.</p>
 
                                 <p className="copyright">
                                     Copyright &copy;{new Date().getFullYear()} All rights reserved by <a href="https://github.com/shahed-swe/" target="_blank" rel="noreferrer">Shahed</a></p>
