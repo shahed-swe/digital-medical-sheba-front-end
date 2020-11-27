@@ -4,7 +4,7 @@ import FooterBar from '../../assets/footer/footer';
 import "./about.css";
 import AboutImage from '../../utils/images/about.jpg';
 import Accordion from 'react-bootstrap/Accordion';
-import {Button,Card} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 
 class About extends Component{
     render(){
