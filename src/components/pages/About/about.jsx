@@ -2,15 +2,18 @@ import React, {Component} from 'react';
 import NavigationBar from '../../assets/navbar/navbar';
 import FooterBar from '../../assets/footer/footer';
 import "./about.css";
+import '../../utils/style.css';
 import AboutImage from '../../utils/images/about.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 import {Button} from 'react-bootstrap';
+import AboutImage2 from '../../utils/images/about-bg.png';
 
 class About extends Component{
     render(){
         return(
             <div>
                 <NavigationBar/>
+                <SiteHeader/>
                 <History/>
                 <FAQ/>
                 <FooterBar/>
@@ -20,6 +23,32 @@ class About extends Component{
     }
 }
 
+const SiteHeader = () => {
+    return (
+        <div className="single-page">
+            <div className="site-header">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <h1>We Are Digital Sheba Team</h1>
+                            <div className="breadcrumbs">
+                                <ul className="d-flex flex-wrap align-items-center p-0 m-0">
+                                    <li><a href="/">Home</a></li>
+                                    <li>About Us</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <img className="header-img" src={AboutImage2} alt=""/>
+            </div>
+        </div>
+
+        
+    )
+}
 
 const History = () => {
     return(
@@ -60,19 +89,19 @@ const FAQ = () => {
 
                         <Accordion className="col-12 col-lg-6 mb-5 mb-lg-0" defaultActiveKey="0">
                             <div className="accordion-wrap type-accordion">
-                                <h3 className="entry-title d-flex justify-content-between align-items-center active">Elit mir congue ligula et efficitur pellentesqu<Accordion.Toggle className="arrow-r" as={Button} eventKey="0"></Accordion.Toggle></h3>
+                                <h3 className="entry-title d-flex justify-content-between align-items-center active">Why You should take our service?<Accordion.Toggle className="arrow-r" as={Button} eventKey="0"></Accordion.Toggle></h3>
 
                                 <Accordion.Collapse  eventKey="0">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
                                 </Accordion.Collapse>
 
-                                <h3 className="entry-title d-flex justify-content-between align-items-center">Pulvinar elit mi. Integer congue ligula et efficitur <Accordion.Toggle className="arrow-r" as={Button} eventKey="1"></Accordion.Toggle></h3>
+                                <h3 className="entry-title d-flex justify-content-between align-items-center">How we serve our best service? <Accordion.Toggle className="arrow-r" as={Button} eventKey="1"></Accordion.Toggle></h3>
 
                                 <Accordion.Collapse  eventKey="1">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
                                 </Accordion.Collapse>
 
-                                <h3 className="entry-title d-flex justify-content-between align-items-center">Pellentesque pulvinar elit mi. Integer congue<Accordion.Toggle className="arrow-r" as={Button} eventKey="2"></Accordion.Toggle></h3>
+                                <h3 className="entry-title d-flex justify-content-between align-items-center">What will happen  if we fall into problem using it?<Accordion.Toggle className="arrow-r" as={Button} eventKey="2"></Accordion.Toggle></h3>
 
                                 <Accordion.Collapse  eventKey="2">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
