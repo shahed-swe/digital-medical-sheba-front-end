@@ -2,15 +2,15 @@ import React, { Component } from 'react'
 import NavigationBar from '../../assets/navbar/navbar';
 import FooterBar from '../../assets/footer/footer';
 import {Subscribe} from '../../pages/Home/talk';
-
+import './login.css';
 
 export default class login extends Component {
     render() {
         return (
             <div>
                 <NavigationBar/>
-                <form method="POST">
-                    <div className="container">
+                <div className="container take">
+                    <form method="POST">
                         <div className="form-row">
                             <div className="form-group">
                                 <label htmlFor="username">User Name:</label>
@@ -22,8 +22,9 @@ export default class login extends Component {
                             </div>
                             <button className="btn btn-outline-success btn-block shadow-none">Login</button>
                         </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
+                    
                 <Subscribe/>
                 <FooterBar/>
             </div>
