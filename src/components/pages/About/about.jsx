@@ -7,6 +7,7 @@ import AboutImage from '../../utils/images/about.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 import {Button} from 'react-bootstrap';
 import AboutImage2 from '../../utils/images/about-bg.png';
+import {Subscribe} from '../../pages/Home/talk'
 
 class About extends Component{
     render(){
@@ -16,6 +17,7 @@ class About extends Component{
                 <SiteHeader/>
                 <History/>
                 <FAQ/>
+                <Subscribe/>
                 <FooterBar/>
             </div>
             
