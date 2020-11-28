@@ -8,16 +8,20 @@ class NavigationBar extends Component{
         super(props);
         this.type = "Push";
         this.leftToggle = this.leftToggle.bind(this);
-        this.onCreate = this.onCreate.bind(this);
-    }
-    onCreate() {
-        this.leftSidebarObj.element.style.visibility = '';
-        this.rightSidebarObj.element.style.visibility = '';
     }
 
     leftToggle(){
         this.leftSidebarObj.classList.toggle('show');
     }
+
+    state = {
+        className: "",
+    }
+
+    classChange = (evt) => {
+        console.log(evt.target.classChange)
+    }
+
 
     render(){
 
@@ -32,12 +36,12 @@ class NavigationBar extends Component{
 
                             <nav className="site-navigation d-flex justify-content-end align-items-center" ref={Sidebar => this.leftSidebarObj = Sidebar} type={this.type} created={this.onCreate}>
                                     <ul className="d-flex flex-column flex-lg-row justify-content-lg-end align-items-center">
-                                        <li className="current-menu-item"><a href="/">Home</a></li>
-                                        <li><a href="/about">About</a></li>
-                                        <li><a href="/services">Services</a></li>
-                                        <li><a href="/contact">Contact</a></li>
-                                        <li><a href="/login">Login</a></li>
-                                        <li><a href="/registration">Registration</a></li>
+                                        <li className="current-menu-item" onClick={this.classChange}><a href="/">Home</a></li>
+                                        <li className={this.state.className} onClick={this.classChange}><a href="/about">About</a></li>
+                                        <li className={this.state.className} onClick={this.classChange}><a href="/services">Services</a></li>
+                                        <li className={this.state.className} onClick={this.classChange}><a href="/contact">Contact</a></li>
+                                        <li className={this.state.className} onClick={this.classChange}><a href="/login">Login</a></li>
+                                        <li className={this.state.className} onClick={this.classChange}><a href="/registration">Registration</a></li>
 
                                         <li className="call-btn button gradient-bg mt-3 mt-md-0">
                                             <a className="d-flex justify-content-center align-items-center" href="#call"><img src={Emergency} alt="_"/> +34 586 778 8892</a>

@@ -59,7 +59,7 @@ export default class registration extends Component {
                                             <label htmlFor="">Confirm Password</label>
                                             <input type="text" className="form-control col-10" id="password2" placeholder="Enter Confirm Password"/>
                                         </div>
-                                        <button class="btn btn-block shadow-none btn-outline-primary">Registration</button>
+                                        <button className="btn btn-block shadow-none btn-outline-primary">Registration</button>
                                     </div>
                                 </div>
                             </form>
