@@ -31,7 +31,6 @@ const Header = () => {
             <div className="site-header">
                 <NavigationBar />
             </div>
-            
             <Carrosel/>
         </div>
     )
@@ -51,7 +50,7 @@ const Carrosel = () => {
                                     </header>
 
                                     <div className="entry-content mt-4">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+                                            <p>We care for your health. Taglines: Do more, feel better, live longer. Together we can make life better. Today's medicines finance tomorrow's miracles.</p>
                                         </div>
 
                                     <footer className="entry-footer d-flex flex-wrap align-items-center mt-4">

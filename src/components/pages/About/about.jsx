@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import NavigationBar from '../../assets/navbar/navbar';
 import FooterBar from '../../assets/footer/footer';
 import "./about.css";
-import '../../utils/style.css';
+// import '../../utils/style.css';
 import AboutImage from '../../utils/images/about.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 import {Button} from 'react-bootstrap';
 import AboutImage2 from '../../utils/images/about-bg.png';
-import {Subscribe} from '../../pages/Home/talk'
+import {Subscribe} from '../../pages/Home/talk';
 
 class About extends Component{
     render(){
