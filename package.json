@@ -9,7 +9,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.1.2",
     "@testing-library/user-event": "^12.2.2",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^4.5.3",
     "framer-motion": "^2.9.4",
     "jquery": "^3.5.1",
     "react": "^17.0.1",

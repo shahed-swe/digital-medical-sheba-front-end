@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavigationBar from '../../assets/navbar/navbar';
 import FooterBar from '../../assets/footer/footer';
 import "./about.css";
-// import '../../utils/style.css';
+import '../../utils/style.css';
 import AboutImage from '../../utils/images/about.jpg';
 import Accordion from 'react-bootstrap/Accordion';
 import {Button} from 'react-bootstrap';
@@ -91,7 +91,7 @@ const FAQ = () => {
 
                         <Accordion className="col-12 col-lg-6 mb-5 mb-lg-0" defaultActiveKey="0">
                             <div className="accordion-wrap type-accordion">
-                                <h3 className="entry-title d-flex justify-content-between align-items-center active">Why You should take our service?<Accordion.Toggle className="arrow-r" as={Button} eventKey="0"></Accordion.Toggle></h3>
+                                <h3 className="entry-title d-flex justify-content-between align-items-center">Why You should take our service?<Accordion.Toggle className="arrow-r" as={Button} eventKey="0"></Accordion.Toggle></h3>
 
                                 <Accordion.Collapse  eventKey="0">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris.</p>
